@@ -176,6 +176,7 @@ export const searchByDiv = async (page, searchText, parentDivSelector) => {
       parentDivSelector,
       (parentDiv, searchText) => {
         const divs = parentDiv.querySelectorAll("div");
+        console.log(divs)
         for (const div of divs) {
           if (div.textContent.includes(searchText)) {
             return div.outerHTML;
@@ -185,7 +186,6 @@ export const searchByDiv = async (page, searchText, parentDivSelector) => {
       },
       searchText
     );
-    // const divWithText = await page.$(parentDivSelector + ' div:has-text("' + searchText + '")');
 
     if (divWithText) {
       return true;
@@ -228,5 +228,27 @@ export const dateClick = async (page, day, classdiv) => {
   } catch (error) {
     console.log(error)
     return false;
+  }
+}
+
+export const extractAndCompare = async (page, searchText,parentDivSelector)=>{
+  try {
+    console.log(searchText)
+    const textContent = await page.$$eval(parentDivSelector, (divs) => {
+      const text = divs[0].textContent.trim();
+      if(searchText === text)
+      {
+        return true
+      }
+     else {
+        return false;
+      }
+    });
+    console.log(textContent);
+
+  } catch (error) {
+    console.log(error);
+    return false;
+
   }
 }

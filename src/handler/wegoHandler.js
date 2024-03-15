@@ -1,5 +1,6 @@
 import {
   dateClick,
+  extractAndCompare,
   formatDate,
   getDate,
   locateAndClick,
@@ -37,7 +38,10 @@ export const wegoHandler = async ({ page, log }) => {
   console.log("Dya:", day);
 
   await page.waitForTimeout(1000);
-
+   const check = await extractAndCompare(page,searchText, '#app > div.H5kGuOuXyvuYLGjCbLSK > div.izA7kC_VrPlQUVlEMJ7t > div.Uuf7CrbcwgyV3_lR7sbS > div.PIQqbVneLCSeY6lry_NH > form > div.IDWPiyXj0_lhCFWfRIht > div > div.Q3HUl_CvDCUwaNlkVyXM > div > div.J1uxu56cx9X6njTxfiph.fZNVU9Y2qimaaBj5LB_T > div > div.JQ0rFqdgicl3mY6DmQ_G > div:nth-child(1) > div.Mb0fqfkJKrlrncFaK_py')
+    console.log("y1!", check)
+  // const find =  await searchByDiv(page,searchText,'//*[@id="app"]/div[2]/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[3]')
+  // console.log("d:",find)
   // while (
   //   !(await searchByDiv(
   //     page,
@@ -52,7 +56,4 @@ export const wegoHandler = async ({ page, log }) => {
   //     .click();
   // }
   // await dateClick(page,day,'.nZBfJFGt62XKC2RYJfB6');
- 
-
-
 };

@@ -42,6 +42,7 @@ export const mmtHandler = async ({ page, log }) => {
     //   !(await searchByDiv(
     //     page,
     //     searchText,
+    
     //     '//*[@id="top-banner"]/div[2]/div/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]'
     //   )
     // ) ){

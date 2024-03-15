@@ -26,7 +26,7 @@ app.post("/search", async (req, res) => {
     };
 
     const jsonString = JSON.stringify(obj);
-    console.log(jsonString);
+    // console.log(jsonString);
     writeFileAsync("./INPUT.json", jsonString);
 
     await runCrawler(); 

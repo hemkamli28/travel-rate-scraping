@@ -1,0 +1,396 @@
+{
+  "details": [
+    {
+      "airline": "IndiGo",
+      "price": "₹ 13,035"
+    },
+    {
+      "airline": "flydubai",
+      "price": "₹ 17,068"
+    },
+    {
+      "airline": "Air Arabia",
+      "price": "₹ 17,233"
+    },
+    {
+      "airline": "SpiceJet",
+      "price": "₹ 18,719"
+    },
+    {
+      "airline": "Air Arabia Abu Dhabi",
+      "price": "₹ 19,358"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 20,333"
+    },
+    {
+      "airline": "Etihad Airways",
+      "price": "₹ 22,612"
+    },
+    {
+      "airline": "Etihad Airways",
+      "price": "₹ 23,309"
+    },
+    {
+      "airline": "Emirates",
+      "price": "₹ 27,052"
+    },
+    {
+      "airline": "Etihad Airways",
+      "price": "₹ 27,774"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 16,196"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 16,196"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 16,196"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 16,196"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 17,676"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 18,881"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 18,881"
+    },
+    {
+      "airline": "Akasa Air, IndiGo",
+      "price": "₹ 19,125"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,488"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,488"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,488"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,488"
+    },
+    {
+      "airline": "Air India, IndiGo",
+      "price": "₹ 19,494"
+    },
+    {
+      "airline": "Air India, IndiGo",
+      "price": "₹ 19,494"
+    },
+    {
+      "airline": "IndiGo, flydubai",
+      "price": "₹ 19,795"
+    },
+    {
+      "airline": "IndiGo, flydubai",
+      "price": "₹ 19,795"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,803"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,803"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,803"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 19,803"
+    },
+    {
+      "airline": "Vistara, Etihad Airways",
+      "price": "₹ 20,350"
+    },
+    {
+      "airline": "Vistara, Etihad Airways",
+      "price": "₹ 20,350"
+    },
+    {
+      "airline": "Air India, flydubai",
+      "price": "₹ 20,408"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,775"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,775"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,775"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,880"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,880"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,880"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 20,906"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,985"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 20,985"
+    },
+    {
+      "airline": "Vistara, Etihad Airways",
+      "price": "₹ 21,058"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 21,090"
+    },
+    {
+      "airline": "Air India",
+      "price": "₹ 21,090"
+    },
+    {
+      "airline": "IndiGo, Emirates",
+      "price": "₹ 21,378"
+    },
+    {
+      "airline": "Vistara, Etihad Airways",
+      "price": "₹ 21,417"
+    },
+    {
+      "airline": "IndiGo, Emirates",
+      "price": "₹ 21,483"
+    },
+    {
+      "airline": "IndiGo, Air India",
+      "price": "₹ 21,517"
+    },
+    {
+      "airline": "IndiGo, Air India",
+      "price": "₹ 21,517"
+    },
+    {
+      "airline": "Vistara, IndiGo",
+      "price": "₹ 21,529"
+    },
+    {
+      "airline": "IndiGo, Emirates",
+      "price": "₹ 21,708"
+    },
+    {
+      "airline": "Vistara",
+      "price": "₹ 21,746"
+    },
+    {
+      "airline": "Akasa Air, Air India",
+      "price": "₹ 21,761"
+    },
+    {
+      "airline": "IndiGo, Emirates",
+      "price": "₹ 21,823"
+    },
+    {
+      "airline": "IndiGo, Emirates",
+      "price": "₹ 21,823"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,019"
+    },
+    {
+      "airline": "Air India, Emirates",
+      "price": "₹ 22,096"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,124"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,124"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,124"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,124"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,124"
+    },
+    {
+      "airline": "Vistara, Emirates",
+      "price": "₹ 22,451"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,480"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,480"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 22,480"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 23,005"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 23,005"
+    },
+    {
+      "airline": "Vistara, Air India",
+      "price": "₹ 23,353"
+    },
+    {
+      "airline": "Vistara, Air India",
+      "price": "₹ 23,452"
+    },
+    {
+      "airline": "Vistara, Air India",
+      "price": "₹ 23,452"
+    },
+    {
+      "airline": "Vistara, Air India",
+      "price": "₹ 23,557"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 23,604"
+    },
+    {
+      "airline": "Vistara, Air India",
+      "price": "₹ 23,662"
+    },
+    {
+      "airline": "Vistara, Emirates",
+      "price": "₹ 24,283"
+    },
+    {
+      "airline": "Vistara, Emirates",
+      "price": "₹ 24,283"
+    },
+    {
+      "airline": "Vistara, Emirates",
+      "price": "₹ 24,283"
+    },
+    {
+      "airline": "Vistara, Emirates",
+      "price": "₹ 25,500"
+    },
+    {
+      "airline": "Vistara, Emirates",
+      "price": "₹ 25,500"
+    },
+    {
+      "airline": "Vistara, Emirates",
+      "price": "₹ 25,500"
+    },
+    {
+      "airline": "Air India, Vistara",
+      "price": "₹ 25,720"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,158"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,158"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,158"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,158"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,473"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,473"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,473"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 27,473"
+    },
+    {
+      "airline": "Vistara, Etihad Airways",
+      "price": "₹ 28,358"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 29,273"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 29,294"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 29,294"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 30,780"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 30,780"
+    },
+    {
+      "airline": "IndiGo",
+      "price": "₹ 30,780"
+    }
+  ],
+  "cheapest": {
+    "airline": "IndiGo",
+    "price": "₹ 13,035"
+  }
+}

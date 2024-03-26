@@ -1,32 +1,31 @@
-import fs from 'fs';
+import fs from "fs";
+import { connectSql } from "./db.js";
 
 export const writeFileAsync = async (path, jsonString) => {
   try {
     await fs.promises.writeFile(path, jsonString);
-    console.log('Successfully wrote file');
+    console.log("Successfully wrote file");
   } catch (err) {
-    console.error('Error writing file', err);
+    console.error("Error writing file", err);
   }
 };
 
 export const readFile = async (filePath) => {
   try {
     return new Promise((resolve, reject) => {
-      fs.readFile(filePath, 'utf8', (err, data) => {
+      fs.readFile(filePath, "utf8", (err, data) => {
         if (err) {
-          console.error('Error reading the file:', err);
+          console.error("Error reading the file:", err);
           reject(err); // Reject the promise if there's an error
           return;
         }
-        console.log('File contents:', data);
         resolve(data); // Resolve the promise with the file data
       });
     });
   } catch (err) {
-    console.error('Error reading file', err);
     throw err; // Rethrow the error to propagate it further
   }
-}
+};
 export const locateAndClick = async (page, xpath) => {
   try {
     console.log("locating and clicking....");
@@ -84,7 +83,7 @@ export const scrollBottom = async (page) => {
   }
 };
 
-export const fetchDetails = async (page) => {
+export const fetchDetails = async (page, parsedData) => {
   try {
     const airlineNames = await page.$$eval(".airlineName", (els) => {
       return els.map((el) => el.textContent);
@@ -93,14 +92,26 @@ export const fetchDetails = async (page) => {
     const price = await page.$$eval(".clusterViewPrice", (els) => {
       return els.map((el) => el.textContent);
     });
+
+    const flightCode = await page.$$eval(".fliCode", (els) => {
+      return els.map((el) => el.textContent);
+    });
+    console.log(price, airlineNames, flightCode);
+
     let details = [];
     let detail = {
+      source: "",
+      dest: "",
+      flightNo: "",
       airline: "",
       price: "",
     };
 
     for (let i = 0; i < airlineNames.length; i++) {
       detail = {
+        source: parsedData.source,
+        dest: parsedData.dest,
+        flightNo: flightCode[i],
         airline: airlineNames[i],
         price: price[i]?.slice(0, -9),
       };
@@ -108,6 +119,7 @@ export const fetchDetails = async (page) => {
       details.push(detail);
     }
 
+    console.log("d", details);
     return details;
   } catch (error) {
     console.log("failed to fetch!");
@@ -169,14 +181,13 @@ export const formatDate = async (parsedData) => {
   }
 };
 
-export const searchByDiv = async (page, searchText, parentDivSelector) => {
+export const searchByDivmmt = async (page, searchText, parentDivSelector) => {
   try {
-
     const divWithText = await page.$eval(
       parentDivSelector,
       (parentDiv, searchText) => {
+
         const divs = parentDiv.querySelectorAll("div");
-        console.log(divs)
         for (const div of divs) {
           if (div.textContent.includes(searchText)) {
             return div.outerHTML;
@@ -184,71 +195,165 @@ export const searchByDiv = async (page, searchText, parentDivSelector) => {
         }
         return null;
       },
-      searchText
+      searchText,
     );
 
     if (divWithText) {
       return true;
-    }
-    else {
+    } else {
       return false;
     }
   } catch (error) {
-    console.log(error)
+    console.log(error);
+  }
+};
+
+
+export const searchByDivixigo = async (page, searchText, parentDivSelector) => {
+  try {
+    const divWithText = await page.$eval(
+      parentDivSelector,
+      (parentDiv, searchText) => {
+
+        const divs = parentDiv.querySelectorAll("span:first-child");
+        for (const div of divs) {
+          if (div.textContent.includes(searchText)) {
+            return div.outerHTML;
+          }
+        }
+        return null;
+      },
+      searchText,
+    );
+
+    if (divWithText) {
+      return true;
+    } else {
+      return false;
+    }
+  } catch (error) {
+    console.log(error);
   }
 };
 
 export const getDate = async (parsedData) => {
   try {
-    
     const parts = parsedData.date.split("-");
-    console.log(parts)
+    console.log(parts);
 
     parts[2] = parseInt(parts[2], 10).toString();
-    console.log(parts[2])
+    console.log(parts[2]);
     // var date = parts.join("-");
     return parts[2];
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
-}
-export const dateClick = async (page, day, classdiv) => {
+};
+export const dateClickixigo = async (page, day, classdiv) => {
   try {
     const divsWithText = await page.$$(classdiv);
 
     for (const divWithText of divsWithText) {
-      const innerText = await divWithText.$eval('p:first-child', element => element.textContent);
+      const innerText = await divWithText.$eval(
+        "abbr:first-child",
+        (element) => element.textContent
+      );
       if (innerText === day) {
         await divWithText.click();
-        console.log('Clicked on the div with text:', day);
+        console.log("Clicked on the div with text:", day);
         break;
       }
     }
     return true;
   } catch (error) {
-    console.log(error)
+    console.log(error);
     return false;
   }
-}
+};
 
-export const extractAndCompare = async (page, searchText,parentDivSelector)=>{
+export const dateClickmmt = async (page, day, classdiv) => {
   try {
-    console.log(searchText)
-    const textContent = await page.$$eval(parentDivSelector, (divs) => {
-      const text = divs[0].textContent.trim();
-      if(searchText === text)
-      {
-        return true
-      }
-     else {
-        return false;
-      }
-    });
-    console.log(textContent);
+    const divsWithText = await page.$$(classdiv);
 
+    for (const divWithText of divsWithText) {
+      const innerText = await divWithText.$eval(
+        "p:first-child",
+        (element) => element.textContent
+      );
+      if (innerText === day) {
+        await divWithText.click();
+        console.log("Clicked on the div with text:", day);
+        break;
+      }
+    }
+    return true;
   } catch (error) {
     console.log(error);
     return false;
-
   }
-}
+};
+
+export const dateClickwego = async (page, day, classdiv) => {
+  try {
+    const divs = await page.$$(classdiv);
+
+    for (const div of divs) {
+      const innerText = await div.evaluate((element) => element.textContent);
+      if (innerText.trim() === day) {
+        await div.click();
+        console.log("Clicked on the div with text:", day);
+        return true;
+      }
+    }
+    console.log("No div with text:", day);
+    return false;
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+};
+
+
+export const insertDataSQL = async (data) => {
+  try {
+    const connection = await connectSql();
+
+    for (const item of data) {
+      const { source, dest, flightNo, airline, price } = item;
+      const sql = `INSERT INTO mmt (source, dest, flightNo, airline, price) VALUES (?, ?, ?, ? , ?)`; 
+      const values = [source, dest, flightNo, airline, price]; 
+
+      await connection.promise().execute(sql, values);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const createTableIfNotExists = async () => {
+  const connection = await connectSql();
+  try {
+    const [rows, fields] = await connection
+      .promise()
+      .query("SHOW TABLES LIKE 'mmt'");
+
+    if (rows.length === 0) {
+      await connection.promise().query(`
+        CREATE TABLE mmt (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          source VARCHAR(255),
+          dest VARCHAR(255),
+          flightNo VARCHAR(255),
+          airline VARCHAR(255),
+          price VARCHAR(10)
+        )
+      `);
+
+      console.log("Table created successfully");
+    } else {
+      console.log("Table already exists");
+    }
+  } catch (error) {
+    console.error("Error creating table:", error);
+  }
+};

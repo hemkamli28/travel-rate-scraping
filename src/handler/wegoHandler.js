@@ -1,11 +1,11 @@
 import {
-  dateClick,
-  extractAndCompare,
+  dateClickwego,
   formatDate,
   getDate,
   locateAndClick,
   readFile,
-  searchByDiv,
+  scrollBottom,
+  // searchByDiv,
   waitForRender,
 } from "../functions.js";
 
@@ -37,23 +37,39 @@ export const wegoHandler = async ({ page, log }) => {
   const day = await getDate(parsedData);
   console.log("Dya:", day);
 
+  console.log(
+    await searchByDiv(
+      page,
+      searchText,
+      '//*[@id="app"]/div[2]/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[3]/div[1]'
+    )
+  );
+
+  while (
+    !(await searchByDiv(
+      page,
+      searchText,
+      '//*[@id="app"]/div[2]/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[3]/div[1]'
+    ))
+  ) {
+    await page
+      .locator(
+        '//*[@id="app"]/div[2]/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[2]'
+      )
+      .click();
+  }
+  await dateClickwego(page, day, ".nZBfJFGt62XKC2RYJfB6");
+  await page.getByRole('button', {name: "Search"}).click();
   await page.waitForTimeout(1000);
-   const check = await extractAndCompare(page,searchText, '#app > div.H5kGuOuXyvuYLGjCbLSK > div.izA7kC_VrPlQUVlEMJ7t > div.Uuf7CrbcwgyV3_lR7sbS > div.PIQqbVneLCSeY6lry_NH > form > div.IDWPiyXj0_lhCFWfRIht > div > div.Q3HUl_CvDCUwaNlkVyXM > div > div.J1uxu56cx9X6njTxfiph.fZNVU9Y2qimaaBj5LB_T > div > div.JQ0rFqdgicl3mY6DmQ_G > div:nth-child(1) > div.Mb0fqfkJKrlrncFaK_py')
-    console.log("y1!", check)
-  // const find =  await searchByDiv(page,searchText,'//*[@id="app"]/div[2]/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[3]')
-  // console.log("d:",find)
-  // while (
-  //   !(await searchByDiv(
-  //     page,
-  //     searchText,
-  //     '//*[@id="app"]/div[2]/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[3]/div[1]/div[1]'
-  //   )
-  // ) ){
-  //   await page
-  //     .locator(
-  //       '//*[@id="app"]/div[2]/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[2]'
-  //     )
-  //     .click();
-  // }
-  // await dateClick(page,day,'.nZBfJFGt62XKC2RYJfB6');
+  
+  await waitForRender(page, '#app > div.niHz0SZLoWNvBkPpEpb6 > div.ENutvtNKzQNTSLJEPo3e > div.KtgGP9XOk54tZ78UCIJY > div.uZvAItb2D_mMOpvNo_ka > button.nvKcw_uGqCmuYXHEfxQJ > div')
+  await page.waitForTimeout(4000);
+  await scrollBottom(page);
+  await page.waitForTimeout(2000);
+  
+  const airlineNames = await page.$$eval(".airlineName", (els) => {
+    return els.map((el) => el.textContent);
+  });
+  await page.screenshot({ path: "final.png" });
+
 };

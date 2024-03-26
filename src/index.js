@@ -1,11 +1,13 @@
 import cors from "cors";
 import express from "express";
 import { runCrawler } from "./main.js";
-import { readFile, writeFileAsync } from "./functions.js";
+import { createTableIfNotExists, insertDataSQL, readFile, writeFileAsync } from "./functions.js";
+import { connectSql }from "./db.js";
 const app = express();
-const port = 5000;
+const port = 5002;
 app.use(express.json());
 app.use(cors());
+// await connectSql();
 app.get("/", async (req, res) => {
   try {
     await runCrawler(); 
@@ -32,7 +34,9 @@ app.post("/search", async (req, res) => {
     await runCrawler(); 
 
     const fd = await readFile("./allDetails.json");
-    const parsedData = JSON.parse(fd);
+    const parsedData = await JSON.parse(fd);
+    // await createTableIfNotExists()
+    // await insertDataSQL(parsedData.details);
     return res.status(200).json(parsedData);
   } catch (error) {
     console.log(error);

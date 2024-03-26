@@ -1,396 +1,476 @@
 {
   "details": [
     {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 1431",
       "airline": "IndiGo",
       "price": "₹ 13,035"
     },
     {
-      "airline": "flydubai",
-      "price": "₹ 17,068"
-    },
-    {
-      "airline": "Air Arabia",
-      "price": "₹ 17,233"
-    },
-    {
-      "airline": "SpiceJet",
-      "price": "₹ 18,719"
-    },
-    {
-      "airline": "Air Arabia Abu Dhabi",
-      "price": "₹ 19,358"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 20,333"
-    },
-    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "EY 253",
       "airline": "Etihad Airways",
-      "price": "₹ 22,612"
+      "price": "₹ 17,766"
     },
     {
-      "airline": "Etihad Airways",
-      "price": "₹ 23,309"
-    },
-    {
-      "airline": "Emirates",
-      "price": "₹ 27,052"
-    },
-    {
-      "airline": "Etihad Airways",
-      "price": "₹ 27,774"
-    },
-    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 803, 6E 1491",
       "airline": "IndiGo",
-      "price": "₹ 16,196"
+      "price": "₹ 17,766"
     },
     {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 846, 6E 1491",
       "airline": "IndiGo",
-      "price": "₹ 16,196"
+      "price": "₹ 18,171"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 16,196"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 5272, 6E 1491",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 16,196"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 649, 6E 1491",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 17,676"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "EK 539",
+      "airline": "Emirates"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 18,881"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "EK 541",
+      "airline": "Emirates"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 18,881"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 1477",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Akasa Air, IndiGo",
-      "price": "₹ 19,125"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 912, 6E 1451",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,488"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 912, 6E 1453",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,488"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 533, 6E 1453",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,488"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2046, 6E 1453",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,488"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 803, 6E 1511",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India, IndiGo",
-      "price": "₹ 19,494"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 533, 6E 1455",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India, IndiGo",
-      "price": "₹ 19,494"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 846, 6E 1511",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo, flydubai",
-      "price": "₹ 19,795"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 846, 6E 1451",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo, flydubai",
-      "price": "₹ 19,795"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2046, 6E 1455",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,803"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 533, 6E 1511",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,803"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2046, 6E 1511",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,803"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 803, 6E 1453",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 19,803"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 533, 6E 1451",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Vistara, Etihad Airways",
-      "price": "₹ 20,350"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 846, 6E 1453",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Vistara, Etihad Airways",
-      "price": "₹ 20,350"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 935, 6E 1423",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India, flydubai",
-      "price": "₹ 20,408"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 383, 6E 1421",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,775"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 879, 6E 1421",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,775"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 998, 6E 1421",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,775"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "QP 1524, I5 338",
+      "airline": "Akasa Air, Air India Express, Air India Express"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,880"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 649, 6E 1511",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,880"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 649, 6E 1451",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,880"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 532, AI 929",
+      "airline": "Air India"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 20,906"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 836, AI 929",
+      "airline": "Air India"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,985"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 846, 6E 1401",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 20,985"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 482, AI 995",
+      "airline": "Air India"
     },
     {
-      "airline": "Vistara, Etihad Airways",
-      "price": "₹ 21,058"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 482, AI 915",
+      "airline": "Air India"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 21,090"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 532, AI 917",
+      "airline": "Air India"
     },
     {
-      "airline": "Air India",
-      "price": "₹ 21,090"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 5125, 6E 1511",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo, Emirates",
-      "price": "₹ 21,378"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 5125, 6E 1451",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Vistara, Etihad Airways",
-      "price": "₹ 21,417"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 5182, 6E 1455",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo, Emirates",
-      "price": "₹ 21,483"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 614, AI 983",
+      "airline": "Air India"
     },
     {
-      "airline": "IndiGo, Air India",
-      "price": "₹ 21,517"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 614, AI 919",
+      "airline": "Air India"
     },
     {
-      "airline": "IndiGo, Air India",
-      "price": "₹ 21,517"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "QR 535, QR 1044",
+      "airline": "Qatar Airways"
     },
     {
-      "airline": "Vistara, IndiGo",
-      "price": "₹ 21,529"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 956, UK 255",
+      "airline": "Vistara"
     },
     {
-      "airline": "IndiGo, Emirates",
-      "price": "₹ 21,708"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 936, UK 255",
+      "airline": "Vistara"
     },
     {
-      "airline": "Vistara",
-      "price": "₹ 21,746"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2209, 6E 1463",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Akasa Air, Air India",
-      "price": "₹ 21,761"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2736, 6E 1463",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo, Emirates",
-      "price": "₹ 21,823"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 5079, 6E 1463",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo, Emirates",
-      "price": "₹ 21,823"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 6042, 6E 1461",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,019"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 946, AI 947",
+      "airline": "Vistara, Air India"
     },
     {
-      "airline": "Air India, Emirates",
-      "price": "₹ 22,096"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 946, AI 995",
+      "airline": "Vistara, Air India"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,124"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 976, AI 995",
+      "airline": "Vistara, Air India"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,124"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "QP 1102, AI 983",
+      "airline": "Akasa Air, Air India"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,124"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 946, AI 915",
+      "airline": "Vistara, Air India"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,124"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "QP 1524, AI 919",
+      "airline": "Akasa Air, Air India"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,124"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "EY 285",
+      "airline": "Etihad Airways"
     },
     {
-      "airline": "Vistara, Emirates",
-      "price": "₹ 22,451"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2263, 6E 1405",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,480"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2209, 6E 1405",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,480"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 2736, 6E 1405",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 22,480"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "QP 1102, EK 503",
+      "airline": "Akasa Air, Emirates"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 23,005"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 936, AI 919",
+      "airline": "Vistara, Air India"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 23,005"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 936, AI 983",
+      "airline": "Vistara, Air India"
     },
     {
-      "airline": "Vistara, Air India",
-      "price": "₹ 23,353"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 614, EK 507",
+      "airline": "Air India, Emirates"
     },
     {
-      "airline": "Vistara, Air India",
-      "price": "₹ 23,452"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 918, AI 909",
+      "airline": "Vistara, Air India"
     },
     {
-      "airline": "Vistara, Air India",
-      "price": "₹ 23,452"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 936, EK 503",
+      "airline": "Vistara, Emirates"
     },
     {
-      "airline": "Vistara, Air India",
-      "price": "₹ 23,557"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 638, EK 501",
+      "airline": "Air India, Emirates"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 23,604"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "QP 1108, QR 4773",
+      "airline": "Akasa Air, Qatar Airways"
     },
     {
-      "airline": "Vistara, Air India",
-      "price": "₹ 23,662"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "SG 57",
+      "airline": "SpiceJet"
     },
     {
-      "airline": "Vistara, Emirates",
-      "price": "₹ 24,283"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 946, EK 517",
+      "airline": "Vistara, Emirates"
     },
     {
-      "airline": "Vistara, Emirates",
-      "price": "₹ 24,283"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 6391, 6E 1475",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Vistara, Emirates",
-      "price": "₹ 24,283"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "SG 15",
+      "airline": "SpiceJet"
     },
     {
-      "airline": "Vistara, Emirates",
-      "price": "₹ 25,500"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 6539, 6E 1411",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Vistara, Emirates",
-      "price": "₹ 25,500"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 6539, 6E 1471",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Vistara, Emirates",
-      "price": "₹ 25,500"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 383, 6E 1483",
+      "airline": "IndiGo"
     },
     {
-      "airline": "Air India, Vistara",
-      "price": "₹ 25,720"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 998, 6E 1465",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 27,158"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 6422, 6E 1485",
+      "airline": "IndiGo"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 27,158"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "SG 8194, SG 5",
+      "airline": "SpiceJet"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 27,158"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "SQ 505, SQ 494",
+      "airline": "Singapore Airlines"
     },
     {
-      "airline": "IndiGo",
-      "price": "₹ 27,158"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 27,473"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 27,473"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 27,473"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 27,473"
-    },
-    {
-      "airline": "Vistara, Etihad Airways",
-      "price": "₹ 28,358"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 29,273"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 29,294"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 29,294"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 30,780"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 30,780"
-    },
-    {
-      "airline": "IndiGo",
-      "price": "₹ 30,780"
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 823, 6E 1485",
+      "airline": "IndiGo"
     }
-  ],
-  "cheapest": {
-    "airline": "IndiGo",
-    "price": "₹ 13,035"
-  }
+  ]
 }

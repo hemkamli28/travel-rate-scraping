@@ -79,21 +79,54 @@ export const ixigoHandler = async ({ page}) => {
   await locateAndClick(
     page,
     "//html/body/main/div[2]/div[1]/div[3]/div[2]/button"
+    
   );
 
   // await page.waitForSelector('//html/body/div[3]/div[3]/div/div[2]/div[3]/div[2]/div/div[1]/div[1]/div[1]/div/p[1]', {timeout : 14000});
 
   // await page.waitForLoadState('domcontentloaded');
   // await page.waitForLoadState('networkidle');
-  await page.waitForTimeout(10000);
-  
+  await page.waitForTimeout(2000);
+  await page.reload()
     
+  await page.waitForTimeout(19000);
 
+  let allFlightDetails = [];
   
-  const airlineNames = await page.$$eval(".airlineTruncate", (els) => {
-    return els.map((el) => el.textContent);
-  });
+  for(let i = 0; i < 200; i++)
+  {
+    let previousHeight = 0;
+      // Get the current height of the page
+      // const currentHeight = await page.evaluate(() => document.body.scrollHeight);
 
-  console.log(airlineNames);
-  await page.screenshot({ path: "xyz.png" });
+      // Scroll down
+      await page.mouse.wheel(0, 2000);
+
+      // Wait for new content to load
+      await page.waitForTimeout(2000); // Adjust timeout as needed
+
+      // Extract flight details from the newly loaded content
+      const flightDetails = await page.evaluate(() => {
+          // Replace this selector with the appropriate selector for your webpage
+          const flightElements = document.querySelectorAll('.flex.items-start.w-full'); 
+          const details = [];
+
+          flightElements.forEach(flightElement => {
+              // Extract flight details from the flight card element
+              // Example:
+              const flightNumber = flightElement.querySelector('.flex.gap-5.flex-col').innerText;
+              const price = flightElement.querySelector('.flex.items-baseline.gap-1').innerText;
+
+              // Add flight details to the list
+              details.push({ flightNumber, price });
+          });
+
+          return details;
+      });
+
+       allFlightDetails.push(...flightDetails);
+    }
+      console.log(allFlightDetails)
+
+
 };

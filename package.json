@@ -10,11 +10,11 @@
         "fs": "^0.0.1-security",
         "mysql2": "^3.9.2",
         "nodemon": "^3.1.0",
-        "playwright": "*"
+        "playwright": "*",
+        "playwright-controller": "^0.10.0"
     },
     "scripts": {
         "start": "node src/index.js",
-
         "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1",
         "postinstall": "npx crawlee install-playwright-browsers"
     },

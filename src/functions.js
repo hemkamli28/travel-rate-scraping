@@ -314,13 +314,13 @@ export const dateClickwego = async (page, day, classdiv) => {
 };
 
 
-export const insertDataSQL = async (data) => {
+export const insertDataSQL = async (data,tableName) => {
   try {
     const connection = await connectSql();
 
     for (const item of data) {
       const { source, dest, flightNo, airline, price } = item;
-      const sql = `INSERT INTO mmt (source, dest, flightNo, airline, price) VALUES (?, ?, ?, ? , ?)`; 
+      const sql = `INSERT INTO \`${tableName}\` (source, dest, flightNo, airline, price) VALUES (?, ?, ?, ? , ?)`; 
       const values = [source, dest, flightNo, airline, price]; 
 
       await connection.promise().execute(sql, values);
@@ -330,16 +330,16 @@ export const insertDataSQL = async (data) => {
   }
 };
 
-export const createTableIfNotExists = async () => {
+export const createTableIfNotExists = async (tableName) => {
   const connection = await connectSql();
   try {
     const [rows, fields] = await connection
       .promise()
-      .query("SHOW TABLES LIKE 'mmt'");
+      .query(`SHOW TABLES LIKE '%${tableName}%'`);
 
     if (rows.length === 0) {
       await connection.promise().query(`
-        CREATE TABLE mmt (
+        CREATE TABLE ${tableName} (
           id INT AUTO_INCREMENT PRIMARY KEY,
           source VARCHAR(255),
           dest VARCHAR(255),

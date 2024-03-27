@@ -4,28 +4,22 @@ import { firefox } from 'playwright';
 export const runCrawler = async () => {
   try {
     const startUrls = ["https://www.ixigo.com"];
-
-    // Define custom headers
-    // const customHeaders = {
-    //   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-    //   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    //   'Accept-Language': 'en-US,en;q=0.9',
-    //   'Accept-Encoding': 'gzip, deflate, br',
-    // };
-
+ 
     const crawler = new PlaywrightCrawler({
       headless: false,
       requestHandler: router,
-      maxRequestsPerCrawl: 20,
+      maxRequestsPerCrawl: 1,
       requestHandlerTimeoutSecs: 120000,
-      // Add custom headers to crawler options
       retryOnBlocked: true,
       launchContext:{
         launcher: firefox,
       },
     });
-
-    await crawler.run(startUrls);
+    for (const url of startUrls) {
+      await crawler.run([url]); // Run the crawler for each URL sequentially
+      console.log(`Finished scraping ${url}`);
+    }
+    // await crawler.run(startUrls);
     console.log("Running crawler success!");
   } catch (error) {
     console.log("Failed to run crawler!");

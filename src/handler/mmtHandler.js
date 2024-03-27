@@ -73,7 +73,7 @@ export const mmtHandler = async ({ page, log }) => {
 
     const jsonData = JSON.stringify(fc, null, 2);
   
-    writeFileAsync('./allDetails.json', jsonData);
+    writeFileAsync('./mmtData.json', jsonData);
     
     console.log("FXC: ",fc );
   };

@@ -33,11 +33,15 @@ app.post("/search", async (req, res) => {
 
     await runCrawler(); 
 
-    const fd = await readFile("./allDetails.json");
-    const parsedData = await JSON.parse(fd);
-    // await createTableIfNotExists()
-    // await insertDataSQL(parsedData.details);
-    return res.status(200).json(parsedData);
+    const mmtData = await readFile("./mmtData.json");
+    const ixigoData = await readFile("./ixigoData.json");
+    // const mmtParsedData = await JSON.parse(mmtData);
+    const ixigoParsedData = await JSON.parse(ixigoData);
+    // await createTableIfNotExists('mmt')
+    await createTableIfNotExists('ixigo')
+    // await insertDataSQL(mmtParsedData.details, 'mmt');
+    await insertDataSQL(ixigoParsedData.details, 'ixigo');
+    return res.status(200).json({ ixigo: ixigoParsedData.details});
   } catch (error) {
     console.log(error);
     return res.status(500).json({ message: "Internal server error!" });

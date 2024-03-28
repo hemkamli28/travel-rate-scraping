@@ -35,12 +35,12 @@ app.post("/search", async (req, res) => {
 
     const mmtData = await readFile("./mmtData.json");
     const ixigoData = await readFile("./ixigoData.json");
-    // const mmtParsedData = await JSON.parse(mmtData);
+    const mmtParsedData = await JSON.parse(mmtData);
     const ixigoParsedData = await JSON.parse(ixigoData);
     // await createTableIfNotExists('mmt')
-    await createTableIfNotExists('ixigo')
+    // await createTableIfNotExists('ixigo')
     // await insertDataSQL(mmtParsedData.details, 'mmt');
-    await insertDataSQL(ixigoParsedData.details, 'ixigo');
+    // await insertDataSQL(ixigoParsedData.details, 'ixigo');
     return res.status(200).json({ ixigo: ixigoParsedData.details});
   } catch (error) {
     console.log(error);

@@ -2,211 +2,260 @@
   "details": [
     {
       "airline": "Air India",
+      "flightNo": "AI638, AI983",
+      "price": "₹20,053",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI638, AI909",
+      "price": "₹20,258",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI632, AI909",
+      "price": "₹20,258",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI614, AI909",
+      "price": "₹20,258",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Emirates",
+      "flightNo": "EK541",
+      "price": "₹21,703",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Emirates",
+      "flightNo": "EK539",
+      "price": "₹21,703",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI482, AI947",
+      "price": "₹21,858",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI532, AI929",
+      "price": "₹21,858",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI836, AI929",
+      "price": "₹21,858",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI482, AI929",
+      "price": "₹21,858",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI482, AI995",
+      "price": "₹21,958",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI532, AI995",
+      "price": "₹21,958",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI836, AI995",
+      "price": "₹21,958",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
       "flightNo": "AI482, AI915",
-      "price": "₹22,059",
+      "price": "₹22,058",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India",
       "flightNo": "AI532, AI915",
-      "price": "₹22,059",
+      "price": "₹22,058",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India",
       "flightNo": "AI836, AI915",
-      "price": "₹22,059",
+      "price": "₹22,058",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India",
       "flightNo": "AI532, AI917",
-      "price": "₹22,164",
+      "price": "₹22,163",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India",
       "flightNo": "AI836, AI917",
-      "price": "₹22,164",
+      "price": "₹22,163",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India",
       "flightNo": "AI482, AI917",
-      "price": "₹22,164",
+      "price": "₹22,163",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK936, AI983",
-      "price": "₹22,551",
+      "price": "₹22,550",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK918, AI983",
-      "price": "₹22,551",
+      "price": "₹22,550",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK918, AI909",
-      "price": "₹22,751",
+      "price": "₹22,750",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK956, AI909",
-      "price": "₹22,751",
+      "price": "₹22,750",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK936, AI909",
-      "price": "₹22,751",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Air India",
-      "flightNo": "AI614, AI919",
-      "price": "₹22,824",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Air India",
-      "flightNo": "UK966, AI915",
-      "price": "₹23,780",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Air India",
-      "flightNo": "UK966, AI917",
-      "price": "₹23,885",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Air India",
-      "flightNo": "AI638, AI919",
-      "price": "₹24,364",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Air India",
-      "flightNo": "AI632, AI919",
-      "price": "₹24,364",
+      "price": "₹22,750",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK966, AI929",
-      "price": "₹24,421",
+      "price": "₹23,579",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Air India",
+      "flightNo": "UK966, AI915",
+      "price": "₹23,779",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Air India",
+      "flightNo": "UK966, AI917",
+      "price": "₹23,884",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK946, AI947",
-      "price": "₹24,421",
+      "price": "₹24,420",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK976, AI929",
-      "price": "₹24,421",
+      "price": "₹24,420",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK946, AI929",
-      "price": "₹24,421",
+      "price": "₹24,420",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK976, AI995",
-      "price": "₹24,456",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Air India",
-      "flightNo": "UK936, AI919",
-      "price": "₹24,526",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Air India",
-      "flightNo": "UK918, AI919",
-      "price": "₹24,526",
+      "price": "₹24,455",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK946, AI995",
-      "price": "₹24,526",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Air India",
-      "flightNo": "UK966, AI995",
-      "price": "₹24,526",
+      "price": "₹24,525",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK946, AI915",
-      "price": "₹24,626",
+      "price": "₹24,625",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK976, AI917",
-      "price": "₹24,726",
+      "price": "₹24,725",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK926, AI947",
-      "price": "₹24,847",
+      "price": "₹24,846",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK926, AI995",
-      "price": "₹24,947",
+      "price": "₹24,946",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Air India",
       "flightNo": "UK926, AI915",
-      "price": "₹25,052",
+      "price": "₹25,051",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -227,287 +276,315 @@
     {
       "airline": "Vistara, Emirates",
       "flightNo": "UK956, EK509",
-      "price": "₹26,394",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Air India",
-      "flightNo": "UK956, AI919",
-      "price": "₹26,971",
+      "price": "₹26,387",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Oman Air, Oman Air",
       "flightNo": "UK936, WY204, WY611",
-      "price": "₹27,710",
+      "price": "₹27,707",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Oman Air, Oman Air",
       "flightNo": "UK956, WY202, WY609",
-      "price": "₹27,710",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF65, GF500",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF65, GF502",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF57, GF504",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF65, GF504",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK936, GF65, GF500",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF57, GF506",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF65, GF506",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK918, GF65, GF500",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF57, GF508",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK936, GF65, GF502",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK956, GF57, GF510",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK936, GF57, GF504",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK936, GF65, GF504",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK918, GF65, GF502",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Gulf Air, Gulf Air",
-      "flightNo": "UK918, GF65, GF504",
-      "price": "₹30,642",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Kuwait Airways, Kuwait Airways",
-      "flightNo": "UK966, KU384, KU673",
-      "price": "₹32,097",
+      "price": "₹27,707",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Kuwait Airways",
       "flightNo": "KU346, KU671",
-      "price": "₹32,459",
+      "price": "₹28,177",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI614, AI919",
+      "price": "₹29,452",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI638, AI919",
+      "price": "₹29,452",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India",
+      "flightNo": "AI632, AI919",
+      "price": "₹29,452",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF65, GF500",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF65, GF502",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF57, GF504",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF65, GF504",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK936, GF65, GF500",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF57, GF506",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF65, GF506",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK918, GF65, GF500",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF57, GF508",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK936, GF65, GF502",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK956, GF57, GF510",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK936, GF57, GF504",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK936, GF65, GF504",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK918, GF65, GF502",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Gulf Air, Gulf Air",
+      "flightNo": "UK918, GF65, GF504",
+      "price": "₹30,634",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Kuwait Airways, Kuwait Airways",
+      "flightNo": "UK966, KU384, KU673",
+      "price": "₹32,094",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Oman Air, Oman Air",
+      "flightNo": "UK966, WY246, WY611",
+      "price": "₹33,682",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Oman Air, Oman Air",
+      "flightNo": "UK966, WY242, WY611",
+      "price": "₹33,682",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Qatar Airways",
       "flightNo": "QR535, QR1006",
-      "price": "₹33,809",
+      "price": "₹33,788",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Qatar Airways",
       "flightNo": "QR535, QR1014",
-      "price": "₹34,025",
+      "price": "₹34,005",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Qatar Airways",
       "flightNo": "QR535, QR1018",
-      "price": "₹34,025",
+      "price": "₹34,005",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Qatar Airways",
       "flightNo": "QR535, QR1002",
-      "price": "₹34,025",
+      "price": "₹34,005",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK966, GF131, GF504",
-      "price": "₹34,380",
+      "price": "₹34,372",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK966, GF131, GF506",
-      "price": "₹34,380",
+      "price": "₹34,372",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK976, GF131, GF504",
-      "price": "₹34,380",
+      "price": "₹34,372",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK976, GF131, GF506",
-      "price": "₹34,380",
+      "price": "₹34,372",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK976, GF131, GF508",
-      "price": "₹34,380",
+      "price": "₹34,372",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK946, GF131, GF504",
-      "price": "₹34,380",
+      "price": "₹34,372",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Kuwait Airways, Kuwait Airways",
       "flightNo": "AI532, KU384, KU673",
-      "price": "₹34,407",
+      "price": "₹34,404",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Oman Air, Oman Air",
       "flightNo": "UK966, WY242, WY609",
-      "price": "₹35,921",
+      "price": "₹35,918",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK976, GF135, GF500",
-      "price": "₹36,286",
+      "price": "₹36,278",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK976, GF135, GF502",
-      "price": "₹36,286",
+      "price": "₹36,278",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK946, GF135, GF500",
-      "price": "₹36,286",
+      "price": "₹36,278",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK976, GF135, GF504",
-      "price": "₹36,286",
+      "price": "₹36,278",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Gulf Air, Gulf Air",
       "flightNo": "UK926, GF135, GF500",
-      "price": "₹36,286",
+      "price": "₹36,278",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Qatar Airways, Qatar Airways",
       "flightNo": "UK966, QR579, QR1006",
-      "price": "₹37,036",
+      "price": "₹37,016",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Qatar Airways, Qatar Airways",
       "flightNo": "UK926, QR571, QR1014",
-      "price": "₹37,036",
+      "price": "₹37,016",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Qatar Airways, Qatar Airways",
       "flightNo": "UK926, QR571, QR1018",
-      "price": "₹37,036",
+      "price": "₹37,016",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -521,35 +598,28 @@
     {
       "airline": "Vistara, Oman Air, Oman Air",
       "flightNo": "UK926, WY242, WY609",
-      "price": "₹38,856",
+      "price": "₹38,853",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "UK966, ET687, ET602",
-      "price": "₹38,921",
+      "price": "₹38,892",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "AI532, ET687, ET602",
-      "price": "₹38,963",
+      "price": "₹38,934",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "AI836, ET687, ET602",
-      "price": "₹38,963",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Kuwait Airways",
-      "flightNo": "KU346, KU673",
-      "price": "₹39,221",
+      "price": "₹38,934",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -561,51 +631,72 @@
       "dest": "DXB"
     },
     {
+      "airline": "Vistara, Kuwait Airways, Kuwait Airways",
+      "flightNo": "UK966, KU384, KU671",
+      "price": "₹40,872",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Air India, Kuwait Airways, Kuwait Airways",
+      "flightNo": "AI532, KU384, KU671",
+      "price": "₹41,087",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "UK956, ET611, ET602",
-      "price": "₹41,856",
+      "price": "₹41,826",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "UK936, ET611, ET602",
-      "price": "₹41,856",
+      "price": "₹41,826",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
-      "flightNo": "UK926, ET689, ET602",
-      "price": "₹41,856",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
-      "flightNo": "UK918, ET641, ET602",
-      "price": "₹41,856",
+      "flightNo": "UK918, ET611, ET602",
+      "price": "₹41,826",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "UK976, ET687, ET602",
-      "price": "₹44,917",
+      "price": "₹44,887",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "UK946, ET687, ET602",
-      "price": "₹44,917",
+      "price": "₹44,887",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
+      "flightNo": "UK926, ET687, ET602",
+      "price": "₹44,887",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "IndiGo",
-      "flightNo": "6E6794, 6E1511",
-      "price": "₹46,386",
+      "flightNo": "6E533, 6E1511",
+      "price": "₹46,296",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "IndiGo",
+      "flightNo": "6E5208, 6E1394",
+      "price": "₹46,296",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -625,43 +716,15 @@
     },
     {
       "airline": "IndiGo",
-      "flightNo": "6E803, 6E1511",
-      "price": "₹46,386",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "IndiGo",
       "flightNo": "6E5208, 6E1511",
       "price": "₹46,386",
       "source": "AMD",
       "dest": "DXB"
     },
     {
-      "airline": "IndiGo",
-      "flightNo": "6E6794, 6E1394",
-      "price": "₹46,386",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Air India, Kuwait Airways, Kuwait Airways",
-      "flightNo": "AI532, KU384, KU671",
-      "price": "₹46,561",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Vistara, Kuwait Airways, Kuwait Airways",
-      "flightNo": "UK966, KU382, KU671",
-      "price": "₹47,826",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "UK918, ET641, ET600",
-      "price": "₹47,988",
+      "price": "₹47,958",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -688,6 +751,13 @@
     },
     {
       "airline": "IndiGo",
+      "flightNo": "6E5182, 6E1455",
+      "price": "₹48,720",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "IndiGo",
       "flightNo": "6E5182, 6E1394",
       "price": "₹48,815",
       "source": "AMD",
@@ -697,27 +767,6 @@
       "airline": "IndiGo",
       "flightNo": "6E5182, 6E1453",
       "price": "₹48,815",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "IndiGo",
-      "flightNo": "6E5346, 6E1394",
-      "price": "₹49,536",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "IndiGo",
-      "flightNo": "6E5346, 6E1511",
-      "price": "₹49,636",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "SpiceJet",
-      "flightNo": "SG8194, SG11",
-      "price": "₹49,714",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -736,16 +785,23 @@
       "dest": "DXB"
     },
     {
+      "airline": "IndiGo",
+      "flightNo": "6E863, 6E34",
+      "price": "₹50,286",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
       "airline": "Air India, Oman Air, Oman Air",
       "flightNo": "AI532, WY242, WY609",
-      "price": "₹50,647",
+      "price": "₹50,644",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Singapore Airlines",
       "flightNo": "SQ505, SQ494",
-      "price": "₹51,126",
+      "price": "₹51,123",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -758,20 +814,6 @@
     },
     {
       "airline": "IndiGo",
-      "flightNo": "6E2209, 6E1907",
-      "price": "₹51,260",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "IndiGo",
-      "flightNo": "6E2271, 6E1463",
-      "price": "₹51,637",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "IndiGo",
       "flightNo": "6E5736, 6E1463",
       "price": "₹51,670",
       "source": "AMD",
@@ -779,8 +821,15 @@
     },
     {
       "airline": "IndiGo",
+      "flightNo": "6E2271, 6E1463",
+      "price": "₹51,737",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "IndiGo",
       "flightNo": "6E2491, 6E1463",
-      "price": "₹52,079",
+      "price": "₹52,179",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -800,8 +849,15 @@
     },
     {
       "airline": "IndiGo",
-      "flightNo": "6E6728, 6E1246",
+      "flightNo": "6E6594, 6E1246",
       "price": "₹52,705",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
+      "airline": "IndiGo",
+      "flightNo": "6E6728, 6E1246",
+      "price": "₹52,805",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -813,23 +869,16 @@
       "dest": "DXB"
     },
     {
-      "airline": "IndiGo",
-      "flightNo": "6E481, 6E34",
-      "price": "₹54,072",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
       "airline": "Vistara, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "UK926, ET689, ET600",
-      "price": "₹54,104",
+      "price": "₹54,075",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Ethiopian Airlines, Ethiopian Airlines",
       "flightNo": "AI532, ET689, ET600",
-      "price": "₹54,130",
+      "price": "₹54,101",
       "source": "AMD",
       "dest": "DXB"
     },
@@ -841,128 +890,114 @@
       "dest": "DXB"
     },
     {
+      "airline": "IndiGo",
+      "flightNo": "6E481, 6E34",
+      "price": "₹54,177",
+      "source": "AMD",
+      "dest": "DXB"
+    },
+    {
       "airline": "Air India, SriLankan, SriLankan",
       "flightNo": "AI532, UL192, UL225",
-      "price": "₹55,485",
+      "price": "₹55,471",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI532, TK717, TK760",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI638, TK721, TK760",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI532, TK717, TK758",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI836, TK717, TK760",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI638, TK721, TK758",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI632, TK721, TK760",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI836, TK717, TK758",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI632, TK721, TK758",
-      "price": "₹62,324",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI614, TK721, TK760",
-      "price": "₹62,329",
+      "price": "₹62,305",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI532, TK4650, TK760",
-      "price": "₹66,682",
+      "price": "₹66,662",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, Turkish Airlines, Turkish Airlines",
       "flightNo": "AI532, TK4650, TK758",
-      "price": "₹66,682",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Air India, Turkish Airlines, Turkish Airlines",
-      "flightNo": "AI836, TK4650, TK760",
-      "price": "₹66,682",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Air India, Turkish Airlines, Turkish Airlines",
-      "flightNo": "AI836, TK4650, TK758",
-      "price": "₹66,682",
-      "source": "AMD",
-      "dest": "DXB"
-    },
-    {
-      "airline": "Etihad Airways, Gulf Air, Gulf Air",
-      "flightNo": "EY287, GF547, GF500",
-      "price": "₹96,121",
+      "price": "₹66,662",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Air India, British Airways, British Airways",
       "flightNo": "AI532, BA142, BA107",
-      "price": "₹1,72,206",
+      "price": "₹1,72,172",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, British Airways, British Airways",
       "flightNo": "UK926, BA256, BA105",
-      "price": "₹4,52,683",
+      "price": "₹4,52,626",
       "source": "AMD",
       "dest": "DXB"
     },
     {
       "airline": "Vistara, British Airways, British Airways",
       "flightNo": "UK926, BA256, BA109",
-      "price": "₹4,52,683",
+      "price": "₹4,52,626",
       "source": "AMD",
       "dest": "DXB"
     }

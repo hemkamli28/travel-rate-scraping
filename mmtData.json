@@ -3,13 +3,6 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "EY 253",
-      "airline": "Etihad Airways",
-      "price": "₹ 20,731"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
       "flightNo": "3L 112",
       "airline": "Air Arabia Abu Dhabi",
       "price": "₹ 20,781"
@@ -19,20 +12,21 @@
       "dest": "DXB",
       "flightNo": "G9 419",
       "airline": "Air Arabia",
-      "price": "₹ 23,457"
+      "price": "₹ 23,451"
     },
     {
       "source": "AMD",
       "dest": "DXB",
       "flightNo": "AI 614, AI 983",
       "airline": "Air India",
-      "price": "₹ 26,895"
+      "price": "₹ 26,525"
     },
     {
       "source": "AMD",
       "dest": "DXB",
       "flightNo": "AI 632, AI 909",
-      "airline": "Air India"
+      "airline": "Air India",
+      "price": "₹ 26,895"
     },
     {
       "source": "AMD",
@@ -43,32 +37,32 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "AI 532, AI 929",
+      "flightNo": "QP 1524, FZ 446",
+      "airline": "Akasa Air, flydubai"
+    },
+    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "QP 1102, FZ 446",
+      "airline": "Akasa Air, flydubai"
+    },
+    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "AI 836, AI 929",
       "airline": "Air India"
     },
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "AI 482, AI 947",
-      "airline": "Air India"
+      "flightNo": "QP 1108, FZ 446",
+      "airline": "Akasa Air, flydubai"
     },
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "AI 614, AI 919",
+      "flightNo": "AI 482, AI 995",
       "airline": "Air India"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "AI 482, AI 915",
-      "airline": "Air India"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "UK 936, AI 983",
-      "airline": "Vistara, Air India"
     },
     {
       "source": "AMD",
@@ -97,14 +91,8 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "QP 1524, AI 983",
-      "airline": "Akasa Air, Air India"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "UK 936, AI 919",
-      "airline": "Vistara, Air India"
+      "flightNo": "UK 966, EY 211",
+      "airline": "Vistara, Etihad Airways"
     },
     {
       "source": "AMD",
@@ -115,19 +103,7 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "UK 946, AI 915",
-      "airline": "Vistara, Air India"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "UK 966, AI 917",
-      "airline": "Vistara, Air India"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "UK 926, AI 947",
+      "flightNo": "UK 966, AI 929",
       "airline": "Vistara, Air India"
     },
     {
@@ -139,8 +115,26 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "UK 936, EK 507",
-      "airline": "Vistara, Emirates"
+      "flightNo": "UK 926, AI 947",
+      "airline": "Vistara, Air India"
+    },
+    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "EY 285",
+      "airline": "Etihad Airways"
+    },
+    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 926, AI 995",
+      "airline": "Vistara, Air India"
+    },
+    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "UK 926, AI 915",
+      "airline": "Vistara, Air India"
     },
     {
       "source": "AMD",
@@ -175,44 +169,14 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "UK 966, EY 213",
-      "airline": "Vistara, Etihad Airways"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "QP 1102, EK 507",
-      "airline": "Akasa Air, Emirates"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "QP 1114, EK 507",
-      "airline": "Akasa Air, Emirates"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "EY 285",
-      "airline": "Etihad Airways"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "QP 1108, GF 65",
-      "airline": "Akasa Air, Gulf Air"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
       "flightNo": "EY 287",
       "airline": "Etihad Airways"
     },
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "KU 346, KU 671",
-      "airline": "Kuwait Airways"
+      "flightNo": "AI 614, AI 919",
+      "airline": "Air India"
     },
     {
       "source": "AMD",
@@ -229,19 +193,13 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "6E 803, 6E 1269",
-      "airline": "IndiGo"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
       "flightNo": "6E 533, 6E 1269",
       "airline": "IndiGo"
     },
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "6E 879, 6E 1495",
+      "flightNo": "6E 5208, 6E 1269",
       "airline": "IndiGo"
     },
     {
@@ -259,19 +217,25 @@
     {
       "source": "AMD",
       "dest": "DXB",
+      "flightNo": "SG 8194, SG 5",
+      "airline": "SpiceJet"
+    },
+    {
+      "source": "AMD",
+      "dest": "DXB",
       "flightNo": "6E 6244, 6E 1423",
       "airline": "IndiGo"
     },
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "6E 277, 6E 1423",
+      "flightNo": "6E 6594, 6E 1495",
       "airline": "IndiGo"
     },
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "6E 6594, 6E 1495",
+      "flightNo": "6E 6539, 6E 1411",
       "airline": "IndiGo"
     },
     {
@@ -289,7 +253,7 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "6E 5736, 6E 1405",
+      "flightNo": "6E 2287, 6E 1405",
       "airline": "IndiGo"
     },
     {
@@ -325,7 +289,13 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "6E 6794, 6E 1511",
+      "flightNo": "6E 803, 6E 1511",
+      "airline": "IndiGo"
+    },
+    {
+      "source": "AMD",
+      "dest": "DXB",
+      "flightNo": "6E 348, 6E 1471",
       "airline": "IndiGo"
     },
     {
@@ -343,7 +313,7 @@
     {
       "source": "AMD",
       "dest": "DXB",
-      "flightNo": "6E 5346, 6E 1511",
+      "flightNo": "6E 2046, 6E 1453",
       "airline": "IndiGo"
     },
     {
@@ -357,12 +327,6 @@
       "dest": "DXB",
       "flightNo": "SQ 505, SQ 494",
       "airline": "Singapore Airlines"
-    },
-    {
-      "source": "AMD",
-      "dest": "DXB",
-      "flightNo": "6E 6042, 6E 1463",
-      "airline": "IndiGo"
     }
   ]
 }

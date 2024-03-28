@@ -17,6 +17,8 @@ export const ixigoHandler = async ({ page }) => {
     page,
     "//html/body/main/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div"
   );
+  await page.screenshot({ path: "screenshot4.png" });
+
   await page
     .locator(
       "//html/body/main/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div/div/div[2]/input"
@@ -42,11 +44,11 @@ export const ixigoHandler = async ({ page }) => {
     )
     .fill(parsedData.dest);
   await page.waitForTimeout(1000);
-  await page.mouse.move(100, 100);
   await locateAndClick(
     page,
     "//html/body/main/div[2]/div[1]/div[3]/div[2]/div[1]/div[2]/div[3]/div[1]"
   );
+  await page.screenshot({ path: "screenshot5.png" });
 
   await page.waitForTimeout(1000);
   await locateAndClick(
@@ -73,7 +75,8 @@ export const ixigoHandler = async ({ page }) => {
       .click();
   }
   await page.waitForTimeout(2000);
-  await page.mouse.move(0, 100);
+  await page.screenshot({ path: "screenshot6.png" });
+
   await dateClickixigo(page, day, ".react-calendar__tile");
   await page.waitForTimeout(2000);
 
@@ -81,15 +84,12 @@ export const ixigoHandler = async ({ page }) => {
     page,
     "//html/body/main/div[2]/div[1]/div[3]/div[2]/button"
   );
-
-  // await page.waitForSelector('//html/body/div[3]/div[3]/div/div[2]/div[3]/div[2]/div/div[1]/div[1]/div[1]/div/p[1]', {timeout : 14000});
-
-  // await page.waitForLoadState('domcontentloaded');
-  // await page.waitForLoadState('networkidle');
+  
   await page.waitForTimeout(2000);
   await page.reload();
-
+  
   await page.waitForTimeout(19000);
+  await page.screenshot({ path: "screenshot7.png" });
 
   let allFlightDetails = [];
 

@@ -1,7 +1,6 @@
 import { Dataset, createPlaywrightRouter } from "crawlee";
 
 import { mmtHandler } from "./handler/mmtHandler.js";
-import { wegoHandler } from "./handler/wegoHandler.js";
 import { ixigoHandler } from "./handler/ixigoHandler.js";
 export const router = createPlaywrightRouter();
 
